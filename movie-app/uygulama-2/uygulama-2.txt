@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>En iyi, En Unutulmaz Filmler... Mutlaka izlenmesi gereken 250 film</h1>
+    <p>Imdb puanı yüksek filmler arıyorsanız, en iyi, unutulmaz, tarihe geçmiş, IMDb puanı yüksek filmleri listeledik. Hafızanızı tazelemek istediğiniz ya da izlemeyi planladığınız film listesine bu filmleri de ekleyebilirsiniz.  </p>
+    
+    <em>
+        
+        <p>
+            <strong>filmler</strong>
+            Bu makalenin ardından en iyi korku filmleri ve en iyi komedi filmleri ile en iyi dram filmleri listelerimize de bakabilirsiniz
+        </p>
+    </em>
+    <h2><a href="../../website/Ready-Player-One.html">Ready Player One:Başlat</a></h2>
+    <img src="../../images/650x344-baslat-filmi-konusu-ne-baslat-ready-player-one-filmi-oyunculari-kimler-nerede-cekildi-1604569596660.jpg" alt=""><br>
+    <strong>Başlat: Ready Player One</strong>,<p> yönetmenliği Steven Spielberg tarafından gerçekleştirilen ve Ernest Cline'nin aynı isimli romanından uyarlanan 2018 çıkışlı Amerikan yapımı bilimkurgu macera filmidir.</p>
+
+    <h2><a href="../../website/başlangıç.html">Inception:Başlangıç</a></h2>
+    <img src="../../images/Başlangıç.jpg" alt=""><br>
+    <strong>Başlangıç</strong><p> Christopher Nolan tarafından yazılan ve yönetilen bilim kurgu türündeki ABD filmidir. 8 Temmuz 2010 tarihinde İngiltere galası yapılmıştır. Film yayımlanmasından kısa bir süre sonra son 25 yılın en iyi filmleri arasında gösterilmiştir.</p>
+
+
+
+</body>
+</html>

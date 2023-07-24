@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .container {
+            /* height: auto; */
+            display: flex;
+            /* width: 100%; */
+            /* height: 100%; */
+            align-items: center;
+            justify-content: center;  
+        }
+
+        .header{
+            font-family: 'Courier New', Courier, monospace;
+        }
+        
+        #BAŞLIK{
+            height: 50px;
+            background-color: white;
+            color: black;    
+        }
+        
+
+        .arka-plan{
+            text-align: center;
+            width: 100%;
+            height: 100%;
+            opacity: 0.4;
+            filter: alpha(opacity=40); 
+        }
+
+        .text1 {
+            width: 400px;
+            margin-bottom: 5px;
+            text-align: left;
+            /* text-align: left; */
+        }
+
+        .text2{
+            width: 400px;
+            margin-bottom: 5px;
+            
+            
+        }
+
+        .tarih1 {
+            width: 400px;
+            margin-bottom: 5px;
+        }
+
+        .tarih2 {
+            width: 400px;
+            margin-bottom: 5px;
+        }
+        .btn {
+            
+	        background-color: rgb(104, 247, 104);
+	        border: 5px solid #09F;
+	        border-radius: 100px;
+            color: blue;
+            
+            text-align: center;
+            width: 100px;
+            font-size: 12pt;
+            font-family:Verdana;
+            
+            transition:all 0.4s;	
+            -webkit-transition:all 0.4s;
+            -moz-transition:all 0.4s;
+            -o-transition:all 0.4s;
+            justify-content: center;
+        }
+        .btn:hover{
+	        box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
+	    }
+
+        .renk {
+            width: 100%;
+            background-color: orange;
+            color: black;
+            height: 100%;
+            text-align: center;
+            
+           
+        }
+
+        input {
+  
+            
+
+            border: 1px solid #eee;
+
+            border-left: 3px solid;
+
+            border-left-color: blue; 
+
+            border-radius: 100px;
+
+            transition: border-color .8s ease-out;
+        }
+
+            input:focus{
+
+            outline: none;
+
+            border: 1px solid black;
+
+            border-left: 3px solid red;
+
+        }
+
+    </style>
+</head>
+<body>
+    
+    
+    
+    
+ <div class="renk" >
+      
+    <div class="container" >
+        <h1 class="header">BASKI NUMUNE KONTROL VE DOĞRULAMA</h1>
+    </div>
+    
+    <div class="container">
+        <img src="images/icons8-camera-50.png" alt="logo" width="30">
+
+        <img src="images/icons8-eyes-64.png" alt="logo" width="30">
+
+        <img src="images/icons8-usb-connector-50.png" alt="logo" width="0">
+    </div> 
+    
+    <div class="container">
+        <div class="text1">Piyasaya Süren : </div> 
+        <div class="text2">Baylan </div>
+    </div>
+    
+    <div class="container">
+        <div class="text1">Ürün: </div>
+        <div class="text2">Baylan Matbaacılık Paz. AMB. SAN. DIŞ. TİC. A.Ş.</div>
+    </div>
+    <div class="container">
+        <div class="text1">Etiket / Ambalaj Üreticisi : </div>
+        <div class="text2">Baylan Matbaacılık Paz. AMB. SAN. DIŞ. TİC. A.Ş.</div>
+    </div>
+   
+    <div class="container">
+        <div class="text1">Etiket Tipi : </div>
+        <div class="text2">DYS Mürekkep Offset Konvansiyonel</div>
+    </div>
+    
+    <div class="container">
+        <div class="text1">Baskı Malzemesi : </div>
+        <div class="text2">HEİDELBERG Ofset Baskı</div>
+    </div>
+    
+    <div class="container">
+        <div class="text1">İŞ ID :</div>  
+        <div class="text2">US00425</div>
+    </div>
+    
+    <div class="container">
+        <div class="text1" >NUMUNE RAPOR SIRA NO </div>
+        <div class="text2"><input type="text" class="text2"></div>
+    </div>
+    <div class="container">
+        <div class="text1">NUMUNE KONUM </div>
+        <div class="text2"><input type="text" class="text2"></div>
+    </div>
+
+    <div class="container">
+        <div class="text1">ETİKET TİPİ</div>
+        <div class="text2">
+            <label for="cities"></label>
+            <select id="cities">
+                <option value="1">BARKOD</option>
+                <option value="2">KAREKOD</option>
+                
+            </select>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="text1">PLANLI BAŞLANGIÇ TARİHİ</div>
+        <div class="text2" >BİTİŞ TARİHİ </div>
+    </div>
+    <div class="container">
+        <div>
+            <input type="date" class="tarih1">
+        </div>
+        <div>
+            <input type="date" class="tarih2" >
+        </div>     
+    </div>
+    
+
+    <div class="container">
+        <div >RAPOR TARİH VE SAATİ : </div>
+        <div > 19/07/2023</div>
+    </div>
+    
+
+
+    <div align="center" class="conteiner">
+        <div class="btn" href="#">BAŞLAT </div>
+    </div>
+    
+</div>   
+    
+    
+    
+    
+
+</body>
+</html>

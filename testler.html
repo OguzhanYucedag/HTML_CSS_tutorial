@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       input[type=checkbox]{
+  display: grid;
+  width: 100px; height: 70px;
+  line-height: 60px;
+  text-align: center;
+  cursor: pointer;
+  border: 0; 
+  appearance: none; -webkit-appearance: none;
+}
+
+input[type=checkbox]::before,
+input[type=checkbox]::after{
+  grid-area: 1/1;
+  border-radius: 40px;
+  mix-blend-mode: hard-light;
+  pointer-events: none;
+}
+
+input[type=checkbox]::before{
+  transform: translate(10px, 10px);
+  background: green;
+  text-indent: -20px;
+  font-size: 25px;
+  content: '✓';
+  color: white;
+}
+
+input[type=checkbox]::after{
+  background: blue;
+  font-size: 50px;
+  content: '⨯';
+}
+
+input[type=checkbox]:checked::after{
+  mix-blend-mode: unset;
+  color: transparent;
+}
+
+main{
+  display: grid;
+  grid:  repeat(4, 100px) / 150px 1fr;
+  align-items: center;
+  width: max-content;
+}
+
+label{
+  font: 60px Girassol;
+  color: lime;
+  text-shadow: 2px 2px 0 blue;
+  cursor: pointer;
+}
+
+body{
+  display: grid;
+  height: 100vh;
+  align-items: center; 
+  justify-items: center;
+  background: white;
+  user-select: none; -webkit-user-select:  none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+    </style>
+</head>
+<body>
+    <main>
+        <input id=un type=checkbox> <label for=un>un</label>
+        <input id=deux type=checkbox checked> <label for=deux>deux</label>
+        <input id=trois type=checkbox> <label for=trois>trois</label>
+        <input id=quatre type=checkbox> <label for=quatre>quatre</label>
+      </main>
+</body>
+</html>
