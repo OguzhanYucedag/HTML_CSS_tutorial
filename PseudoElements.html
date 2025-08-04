@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::first-line{/*"p" yazı etiketlerinin ilk satırını*/
+            font-weight:bold;
+            color:brown;
+            word-spacing: 3px; /*kelimeler arası genişlik*/
+             letter-spacing: 1px; /*harfler arası genişlik */
+        }
+        p.about::first-line{/*about sınıfının ilk satırını*/
+            color: green;            
+        }
+        p::first-letter{/*"p" yazı etiketinin ilk harflerini*/
+            font-size: 48px;
+        }
+        ::selection{/*seçilen*/
+            background-color: yellow;
+        }
+        p::after{/*"p" etiketlerinin sonuna*/
+            content: '\261D';
+            font-size: 35px;
+            padding: 10px;/*içevir ile kenarlık arasında ki boşluk*/
+        }
+    </style>
+</head>
+<body>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores nulla tenetur voluptas labore nesciunt dolores iste? Facilis, quidem? Sit quo cumque nesciunt iure nulla accusantium reiciendis vel voluptas et ad.
+    </p>
+    <p class="about">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis assumenda accusamus quis soluta cupiditate iste reiciendis, animi facilis est laboriosam pariatur quaerat voluptatum qui dolores corrupti quos. Voluptate, omnis at.
+    </p>
+</body>
+</html>
