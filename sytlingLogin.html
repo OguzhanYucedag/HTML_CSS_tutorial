@@ -72,6 +72,22 @@
             content: '\2022';
             color: #fff;
         }
+        .main-nav__item--login a{
+            color: #fff;
+            background-color: #2E4C6D;
+            padding: 4px 16px;
+            border-radius: 8px;
+            border:2px solid #fff;
+        }
+        .main-nav__item--login a:hover{
+            color: #2E4C6D;
+            border: 2px solid #2E4C6D;
+            background-color: #fff;
+        }
+        .main-nav__item--login::before {
+            content: none;
+            
+        }
         
     </style>
 </head>
@@ -87,7 +103,7 @@
                 <li class="main-nav__item">
                     <a href="#">Diziler</a>
                 </li>
-                <li class="main-nav__item">
+                <li class="main-nav__item main-nav__item--login">
                     <a href="#">Login</a>
                 </li>
             </ul>
